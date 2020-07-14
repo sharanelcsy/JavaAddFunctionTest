@@ -9,4 +9,6 @@ public final class ToplamaFonksiyon {
 	{
 	return first + second;	
 	}
+	
+	
 }

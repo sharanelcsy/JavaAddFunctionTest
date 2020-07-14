@@ -11,8 +11,8 @@ public class test {
 	@Test
 	public void add_toplama()
 	{
-		final int sonuc = 4;
+		final int sonuc = 5;
 		final int gercek = ToplamaFonksiyon.add(2,2);
-		assertEquals(gercek,sonuc);
+		assertEquals("Toplama islemi hatali (Wrong Result)",gercek,sonuc);
 	}
 }
