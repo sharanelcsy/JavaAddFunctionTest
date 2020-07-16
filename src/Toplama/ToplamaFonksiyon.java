@@ -2,10 +2,10 @@
 
 package Toplama;
 
-public final class ToplamaFonksiyon {
+public  class ToplamaFonksiyon {
 
 	
-	public static int add(int first,int second)
+	public int topla(int first,int second)
 	{
 	return first + second;	
 	}
